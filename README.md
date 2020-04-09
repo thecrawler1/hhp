@@ -35,6 +35,8 @@ representation](https://github.com/thlorenz/hha/blob/master/test/fixtures/holdem
 -   `opts` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)?** various options
     -   `opts.infoOnly` **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)?** denotes that only the header line of the hand is parsed and only the info object returned
     -   `opts.buyinFile` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** file name overrides buyin for rooms that don't include it in the history like Ignition
+    -   `opts.hero` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** overrides hero name in Ignition (default `IgnitionHero`)
+    -   `opts.prefix` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** overrides villains prefix in Ignition (default `Ignition-`)
 
 Returns **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** representation of the given hand to be used as input for other tools like hha
 
